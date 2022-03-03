@@ -1,9 +1,10 @@
 apiVersion: backstage.io/v1alpha1
 kind: Overwrite
 metadata:
-  name: example-components
+  name: oss-backstage
   namespace: oss
   description: A collection of all Backstage example components
 spec:
+  owner: sarabadu
   targets:
     - https://github.com/backstage/backstage/blob/master/catalog-info.yaml
