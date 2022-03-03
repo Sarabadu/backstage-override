@@ -1,0 +1,9 @@
+apiVersion: backstage.io/v1alpha1
+kind: Location
+metadata:
+  name: example-components
+  namespace: oss
+  description: A collection of all Backstage example components
+spec:
+  targets:
+    - https://github.com/backstage/backstage/blob/master/catalog-info.yaml
