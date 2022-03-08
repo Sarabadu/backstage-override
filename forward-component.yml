@@ -1,10 +1,14 @@
 apiVersion: backstage.io/v1alpha1
-kind: Overwrite
+kind: Alias
 metadata:
-  name: oss-backstage
-  namespace: oss
-  description: A collection of all Backstage example components
+  name: oss-backstage-alias
+  description: Alias upon oss backstage
 spec:
   owner: sarabadu
   targets:
     - https://github.com/backstage/backstage/blob/master/catalog-info.yaml
+  overrides:
+    metadata:
+      namespace: oss
+    spec:
+      owner: tito
