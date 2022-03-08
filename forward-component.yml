@@ -5,7 +5,7 @@ metadata:
   description: Alias upon oss backstage
 spec:
   owner: sarabadu
-  targets:
+  target:
     - https://github.com/backstage/backstage/blob/master/catalog-info.yaml
   overrides:
     metadata:
