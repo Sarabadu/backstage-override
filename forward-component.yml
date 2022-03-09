@@ -8,6 +8,6 @@ spec:
   target: https://github.com/backstage/backstage/blob/master/catalog-info.yaml
   overrides:
     metadata:
-      namespace: oss
+      namespace: ext
     spec:
-      owner: tito
+      owner: ext-group
