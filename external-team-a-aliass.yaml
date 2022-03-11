@@ -10,4 +10,4 @@ spec:
     metadata:
       namespace: ext
     spec:
-      parent: team-a
+      parent: default/team-a
