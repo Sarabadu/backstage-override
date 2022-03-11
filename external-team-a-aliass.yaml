@@ -10,4 +10,4 @@ spec:
     metadata:
       namespace: ext
     spec:
-      memberOf: [team-a]
+      parent: team-a
