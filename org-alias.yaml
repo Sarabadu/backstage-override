@@ -1,0 +1,13 @@
+apiVersion: backstage.io/v1alpha1
+kind: Alias
+metadata:
+  name: external-org-aliass
+  description: Alias upon external corp teams
+spec:
+  owner: sarabadu
+  target: https://github.com/Sarabadu/backstage-override/blob/main/external-org.yml
+  overrides:
+    metadata:
+      namespace: ext
+    spec:
+      parent: default/team-a
