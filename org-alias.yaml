@@ -1,7 +1,7 @@
 apiVersion: backstage.io/v1alpha1
 kind: Alias
 metadata:
-  name: external-org+--alia
+  name: external-org-alias
   description: Alias upon external corp teams
 spec:
   owner: sarabadu
