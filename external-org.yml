@@ -1,0 +1,25 @@
+apiVersion: backstage.io/v1alpha1
+kind: Group
+metadata:
+  name: external-corp
+  description: The external-corp organization
+  links:
+    - url: http://www.external.com/
+      title: Website
+spec:
+  type: organization
+  profile:
+    displayName: External Corp
+    email: info@example.com
+    picture: https://avatars.dicebear.com/api/identicon/external@example.com.svg?background=%23fff&margin=25
+  children: [infrastructure]
+---
+apiVersion: backstage.io/v1alpha1
+kind: Location
+metadata:
+  name: example-groups
+  description: A collection of all Backstage example Groups
+spec:
+  targets:
+    - ./team-a-group.yaml
+    - ./team-b-group.yaml
