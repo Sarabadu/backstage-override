@@ -1,8 +1,8 @@
 apiVersion: backstage.io/v1alpha1
 kind: Alias
 metadata:
-  name: oss-backstage-alias
-  description: Alias upon oss backstage
+  name: external-org+--alia
+  description: Alias upon external corp teams
 spec:
   owner: sarabadu
   target: https://github.com/Sarabadu/backstage-override/blob/main/external-org.yml
