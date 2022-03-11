@@ -5,9 +5,9 @@ metadata:
   description: Alias upon oss backstage
 spec:
   owner: sarabadu
-  target: https://github.com/backstage/backstage/blob/master/catalog-info.yaml
+  target: https://github.com/Sarabadu/backstage-override/blob/main/external-org.yml
   overrides:
     metadata:
       namespace: ext
     spec:
-      owner: team-a
+      memberOf: team-a
