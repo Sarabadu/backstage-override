@@ -5,7 +5,7 @@ metadata:
   description: Alias upon external corp teams
 spec:
   owner: sarabadu
-  target: https://github.com/Sarabadu/backstage-override/blob/main/external-org.yml
+  target: https://github.com/Sarabadu/backstage-override/blob/main/team-a-group.yaml
   overrides:
     metadata:
       namespace: ext
