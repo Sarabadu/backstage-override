@@ -1,0 +1,13 @@
+apiVersion: backstage.io/v1alpha1
+kind: Alias
+metadata:
+  name: oss-backstage-alias
+  description: Alias upon oss backstage
+spec:
+  owner: sarabadu
+  target: https://github.com/backstage/backstage/blob/master/catalog-info.yaml
+  overrides:
+    metadata:
+      namespace: ext
+    spec:
+      owner: team-a
